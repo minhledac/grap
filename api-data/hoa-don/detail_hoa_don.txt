@@ -1,0 +1,18 @@
+{{
+  "api": "/invoices/{0.invoice_id}",
+  "api_params": [
+    "Includes=TotalQuantity",
+    "Includes=TotalQuantityWoTopping",
+    "Includes=Order",
+    "Includes=User",
+    "Includes=SoldBy",
+    "Includes=Return",
+    "Includes=Payments",
+    "Includes=Customer",
+    "Includes=PriceBook",
+    "Includes=InvoicePromotions"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

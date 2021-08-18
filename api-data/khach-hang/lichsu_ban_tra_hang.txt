@@ -1,0 +1,11 @@
+{{
+  "api": "/customers/{0.customer_id}/transactionhistory",
+  "api_params": [
+    "format=json",
+    "%24inlinecount=allpages",
+    "%24top=50"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

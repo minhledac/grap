@@ -1,0 +1,21 @@
+{{
+  "api": "/Transfers",
+  "api_params": [
+    "format=json",
+    "Includes=FromBranch",
+    "Includes=ToBranch",
+    "Includes=User",
+    "Includes=ReceivedUser",
+    "Includes=TotalSendQuantity",
+    "Includes=TotalReceiveQuantity",
+    "Includes=TotalProductType",
+    "%24inlinecount=allpages",
+    "FromDate=",
+    "ToDate=",
+    "%24top=100",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

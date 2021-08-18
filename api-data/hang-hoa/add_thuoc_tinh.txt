@@ -1,0 +1,12 @@
+{{
+  "api": "/attributes",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Attribute": {{
+      "Id": 0,
+      "Name": "{0.ten_thuoc_tinh}"
+    }}
+  }},
+  "files": "None"
+}}

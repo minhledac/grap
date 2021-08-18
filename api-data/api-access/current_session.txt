@@ -1,0 +1,9 @@
+{{
+  "api": "/retailers/currentsession",
+  "api_params": [
+    "format=json"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

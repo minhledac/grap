@@ -1,0 +1,28 @@
+{{
+  "api": "/invoices",
+  "api_params": [
+    "format=json",
+    "Includes=BranchName",
+    "Includes=Branch",
+    "Includes=InvoiceDeliveries",
+    "Includes=DeliveryInfoes",
+    "Includes=DeliveryPackages",
+    "Includes=TableAndRoom",
+    "Includes=Customer",
+    "Includes=Payments",
+    "Includes=SoldBy",
+    "Includes=User",
+    "Includes=InvoiceOrderSurcharges",
+    "Includes=Order",
+    "ForSummaryRow=true",
+    "UsingTotalApi=true",
+    "%24inlinecount=allpages",
+    "ExpectedDeliveryFilterType=alltime",
+    "TableGroupIds=%5B%5D",
+    "%24top={0.so_ban_ghi}",
+    "%24filter={0.data_filter}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

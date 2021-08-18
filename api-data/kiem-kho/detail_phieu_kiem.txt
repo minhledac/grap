@@ -1,0 +1,10 @@
+{{
+  "api": "/stocktakes/{0.id_phieu_kiem}/details",
+  "api_params": [
+    "format=json",
+    "Includes=Product"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

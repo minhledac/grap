@@ -1,0 +1,24 @@
+{{
+  "api": "/customers",
+  "api_params": [
+    "format=json",
+    "Includes=TotalInvoiced",
+    "Includes=Location",
+    "Includes=WardName",
+    "ForSummaryRow=true",
+    "UsingStoreProcedure=true",
+    "UsingTotalApi=true",
+    "%24inlinecount=allpages",
+    "InvoicedLower=0",
+    "GroupId=0",
+    "DateFilterType=alltime",
+    "NewCustomerDateFilterType=alltime",
+    "NewCustomerLastTradingDateFilterType=alltime",
+    "CustomerBirthDateFilterType=alltime",
+    {0.filter_status}
+    "%24top={0.so_ban_ghi}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

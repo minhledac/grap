@@ -1,0 +1,19 @@
+{{
+  "api": "/purchasepayments",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "PurchasePayments": [
+      {{
+        "Amount": {0.gt_thanh_toan},
+        "Method": "{0.phuong_thuc_tt}",
+        "PartnerDeliveryId": {0.id_doi_tac},
+        "TransDate": "{0.trans_date}",
+        "Description": "{0.ghi_chu}",
+        "AccountId": {0.account_id}
+      }}
+    ],
+    "BranchId": {0.branch_id}
+  }},
+  "files": "None"
+}}

@@ -1,0 +1,14 @@
+atom-python-run@0.9.7
+atom-beautify@0.33.4
+autocomplete-robot-framework@3.9.0
+autosave-onchange@1.5.1
+file-icons@2.1.42
+hyperclick@0.1.5
+hyperclick-robot-framework@1.9.0
+hyperlink-hyperclick@3.0.1
+language-robot-framework@2.4.0
+quick-highlight@0.13.0
+script@3.26.0
+selection-highlight@0.1.6
+tool-bar@1.3.0
+platformio-ide-terminal@2.10.0

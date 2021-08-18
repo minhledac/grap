@@ -1,0 +1,33 @@
+{{
+  "api": "/pricebook",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "PriceBook": {{
+      "Id": 0,
+      "Name": "{0.ten_BG}",
+      "IsGlobal": {0.IsGlobal},
+      "IsActive": {0.IsActive},
+      "ForAllUser": {0.ForAllUser},
+      "ForAllCusGroup": {0.ForAllCusGroup},
+      "ForAllTableAndRoom": {0.ForAllTableAndRoom},
+      "ForAllSaleChannel": {0.ForAllSaleChannel},
+      "StartDate": "{0.start_date}",
+      "Type": {0.type},
+      "EndDate": "{0.end_date}",
+      "CustomTime": "{{\"Months\":[{0.data_month}],\"Days\":[{0.data_day}],\"DayOfWeeks\":[{0.data_dayOfweek}],\"WeekOfMonth\":{0.weekOfmonth},\"TimeRanges\":[{0.data_timeRange}]}}",
+      "selectedUser": [{0.select_user}],
+      "selectedBranch": [{0.select_branch}],
+      "selectedCustomerGroup": [{0.select_cus_group}],
+      "selectedTableAndRoom": [{0.select_table}],
+      "selectedSaleChannel": [{0.select_sale_channel}],
+      "PriceBookCustomerGroups": [{0.data_cus_group}],
+      "PriceBookUsers": [{0.data_user}],
+      "PriceBookBranches": [{0.data_branch}],
+      "PriceBookTableAndRooms": [{0.data_table}],
+      "PriceBookDiningOptions": [{0.data_dinning_option}],
+      "PriceBookGroups": [{0.data_pricebbook_group}]
+    }}
+  }},
+  "files": "None"
+}}

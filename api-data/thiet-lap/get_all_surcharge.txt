@@ -1,0 +1,14 @@
+{{
+  "api": "/surcharge",
+  "api_params": [
+    "format=json",
+    "ForManage=true",
+    "Includes=SurchargeBranches",
+    "%24inlinecount=allpages",
+    "BranchIds=%5B{0.branch_id}%5D",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

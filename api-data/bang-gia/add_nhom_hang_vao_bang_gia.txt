@@ -1,0 +1,11 @@
+{{
+  "api": "/pricebook/addcategory",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "CategoryId": {0.id_nhom_hang},
+    "PriceBookId": {0.id_BG},
+    "ComparePriceBookName": ""
+  }},
+  "files": "None"
+}}

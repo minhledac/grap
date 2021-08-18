@@ -1,0 +1,9 @@
+{{
+  "api": "/report/reports/clients",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "timeStamp": 0
+  }},
+  "files": "None"
+}}

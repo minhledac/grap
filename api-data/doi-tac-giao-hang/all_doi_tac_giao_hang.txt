@@ -1,0 +1,15 @@
+{{
+  "api": "/partnerdelivery",
+  "api_params": [
+    "format=json",
+    "Includes=TotalWeight,TotalCost,TotalInvoices,TotalDebt,LocationName,WardName",
+    "ForSummaryRow=true",
+    "%24inlinecount=allpages",
+    "GroupId=0",
+    "DateFilterType=alltime",
+    "%24top={0.so_ban_ghi}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

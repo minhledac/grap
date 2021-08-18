@@ -1,0 +1,14 @@
+{{
+  "api": "/logs",
+  "api_params": [
+    "format=json",
+    "%24inlinecount=allpages",
+    "BranchIds={0.branch_id}",
+    "FromDate={0.from_date}",
+    "ToDate={0.to_date}",
+    "%24top={0.so_ban_ghi}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,14 @@
+{{
+  "api": "/suppliers/group",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "SupplierGroup": {{
+      "Id": 0,
+      "Name": "{0.ten_nhom_ncc}",
+      "Description": "",
+      "CompareName": ""
+    }}
+  }},
+  "files": "None"
+}}

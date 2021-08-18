@@ -1,0 +1,7 @@
+{{
+  "api": "/partnerdelivery/group/{0.id_nhom_dt}",
+  "api_params": [],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

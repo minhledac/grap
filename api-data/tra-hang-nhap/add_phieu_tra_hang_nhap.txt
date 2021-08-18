@@ -1,0 +1,97 @@
+{{
+  "api": "/PurchaseReturns",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "PurchaseReturn": {{
+      "Code": "{0.ma_phieu}",
+      "PurchaseReturnDetails": [
+        {0.data_product}
+      ],
+      "PurchaseOrderDetails": [],
+      "UserId": {0.user_id},
+      "User": {{
+        "id": {0.user_id},
+        "username": "admin",
+        "givenName": "loan",
+        "Id": {0.user_id},
+        "UserName": "admin",
+        "GivenName": "loan",
+        "IsAdmin": true,
+        "IsLimitedByTrans": false,
+        "IsShowSumRow": true,
+        "Theme": ""
+      }},
+      "ReceivedById": {0.user_id},
+      "CompareReceivedById": {0.user_id},
+      "CompareReturnDate": "2020-05-26T10:02:53.045Z",
+      "ModifiedDate": "2020-05-26T10:02:53.045Z",
+      "Description": "",
+      "Supplier": {{
+        "TotalInvoiced": 0,
+        "CompareCode": "",
+        "CompareName": "",
+        "Id": {0.id_ncc},
+        "Name": "",
+        "RetailerId": {0.retailer_id},
+        "Code": "",
+        "CreatedDate": "2020-01-20T09:36:16.5030000",
+        "CreatedBy": 15583,
+        "Debt": 6366744,
+        "isDeleted": false,
+        "isActive": true,
+        "PurchaseOrders": [],
+        "PurchaseReturns": [],
+        "PurchasePayments": [],
+        "SupplierGroupDetails": []
+      }},
+      "SupplierId": {0.id_ncc},
+      "SubTotal": 19000,
+      "Branch": {{
+        "id": {0.branch_id},
+        "name": "",
+        "Id": {0.branch_id},
+        "Name": "",
+        "Address": "",
+        "LocationName": "",
+        "WardName": "",
+        "ContactNumber": ""
+      }},
+      "Status": 3,
+      "CompareStatus": 3,
+      "StatusValue": "Phiếu tạm",
+      "Discount": 0,
+      "DiscountRatio": null,
+      "Id": 0,
+      "TotalReturn": 19000,
+      "BalanceDue": 19000,
+      "PaidAmount": 0,
+      "PayingAmount": {0.tien_ncc_tra},
+      "ChangeAmount": 1000,
+      "Account": {{}},
+      "paymentMethod": null,
+      "ExpensesOthersTitle": "",
+      "PurchaseOrderExpensesOthers": [],
+      "PurchaseReturnExpensesOthers": [],
+      "ExReturnSuppliers": 0,
+      "PurchaseOrderSubTotal": 0,
+      "isAutoChangeDiscount": false,
+      "paymentMethodObj": null,
+      "TotalQuantity": 5,
+      "OriginTotal": 19000,
+      "PurchaseOrderExpensesOthersRtp": [],
+      "PurchaseOrderExpensesOthersRs": [],
+      "PurchasePayments": [
+        {{
+          "Amount": {0.tien_ncc_tra},
+          "Method": "Cash",
+          "AccountId": null
+        }}
+      ],
+      "BranchId": {0.branch_id}
+    }},
+    "Completed": {0.trang_thai},
+    "CopyFrom": ""
+  }},
+  "files": "None"
+}}

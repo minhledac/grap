@@ -1,0 +1,7 @@
+{{
+  "api": "//bankaccount/{0.id}",
+  "api_params": [],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

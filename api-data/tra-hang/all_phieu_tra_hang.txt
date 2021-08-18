@@ -1,0 +1,27 @@
+{{
+  "api": "/returns",
+  "api_params": [
+    "format=json",
+    "Includes=Branch",
+    "Includes=Invoice",
+    "Includes=Customer",
+    "Includes=TotalReturn",
+    "Includes=TotalQuantity",
+    "Includes=TotalPayment",
+    "Includes=ReceivedBy",
+    "Includes=PaymentCode",
+    "Includes=PaymentId",
+    "Includes=Payments",
+    "Includes=User",
+    "Includes=InvoiceOrderSurcharges",
+    "Includes=TableAndRoom",
+    "ForSummaryRow=true",
+    "ForManage=True",
+    "%24inlinecount=allpages",
+    "%24top={0.so_ban_ghi}",
+    "%24filter=({0.data_filter})"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

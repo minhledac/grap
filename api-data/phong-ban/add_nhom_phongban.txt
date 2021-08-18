@@ -1,0 +1,11 @@
+{{
+  "api": "/tablegroups",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "TableGroup": {{
+      "Name": "{0.ten_nhom_ban}"
+    }}
+  }},
+  "files": "None"
+}}

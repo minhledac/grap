@@ -1,0 +1,7 @@
+{{
+  "api": "/invoices/{0.invoice_id}",
+  "api_params": [],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

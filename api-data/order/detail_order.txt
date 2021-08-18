@@ -1,0 +1,14 @@
+{{
+  "api": "/orders/{0.order_id}",
+  "api_params": [
+    "Includes=TotalQuantity",
+    "Includes=Seller",
+    "Includes=Cashier",
+    "Includes=User",
+    "Includes=Customer",
+    "Includes=Invoices"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

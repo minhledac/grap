@@ -1,0 +1,16 @@
+{{
+  "api": "/stocktakes",
+  "api_params": [
+    "format=json",
+    "Includes=UserCreate",
+    "Includes=Branch",
+    "Includes=User",
+    "%24inlinecount=allpages",
+    "CodeKey={0.search_ma_phieu}",
+    "%24top={0.so_ban_ghi}",
+    "%24filter={0.filter}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

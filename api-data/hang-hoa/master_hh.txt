@@ -1,0 +1,24 @@
+{{
+  "api": "/branchs/{0.branch_id}/masterproducts",
+  "api_params": [
+  "format=json",
+  "Includes=ProductAttributes",
+  "MasterProductId={0.master_product_id}",
+  "ForSummaryRow=true",
+  "CategoryId=0",
+  "IsActive={0.is_active}",
+  "AttributeFilter=%5B%5D",
+  "ProductTypes=",
+  "IsImei=2",
+  "IsFormulas=2",
+  "ShelvesIds=",
+  "take=100",
+  "skip=0",
+  "page=1",
+  "pageSize=100",
+  "filter%5Blogic%5D=and"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

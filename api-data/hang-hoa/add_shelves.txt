@@ -1,0 +1,11 @@
+{{
+  "api": "/shelves",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Shelves": {{
+      "Name": "{0}"
+    }}
+  }},
+  "files": "None"
+}}

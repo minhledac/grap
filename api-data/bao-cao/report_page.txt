@@ -1,0 +1,7 @@
+{{
+  "api": "/report/reports/clients/{0.client_id}/instances/{0.instance_id}/documents/{0.document_id}/pages/{0.page}",
+  "api_params": [],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

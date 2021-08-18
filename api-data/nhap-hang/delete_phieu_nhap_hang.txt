@@ -1,0 +1,11 @@
+{{
+  "api": "/purchaseOrders",
+  "api_params": [
+    "CompareStatus=",
+    "Id={0.id}",
+    "IsVoidPayment={0.is_void_payment}"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

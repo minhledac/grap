@@ -1,0 +1,12 @@
+{{
+  "api": "/suppliers/{0.id_nha_cung_cap}/debt",
+  "api_params": [
+    "format=json",
+    "GroupCode=true",
+    "%24inlinecount=allpages",
+    "%24top={0.so_ban_ghi}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

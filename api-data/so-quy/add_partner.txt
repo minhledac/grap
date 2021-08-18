@@ -1,0 +1,17 @@
+{{
+  "api": "/partners",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Partner": {{
+      "temploc": "",
+      "tempw": "",
+      "Name": "{0.ten_nguoi_nop}",
+      "ContactNo": "{0.sdt_nguoi_nop}",
+      "Address": "",
+      "LocationName": "",
+      "WardName": ""
+    }}
+  }},
+  "files": "None"
+}}

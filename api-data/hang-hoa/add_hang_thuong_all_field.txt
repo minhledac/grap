@@ -1,0 +1,56 @@
+{{
+  "api": "/products/addmany",
+  "api_params": [],
+  "method": "POST",
+  "data": "None",
+  "files": {{
+    "ListProducts": [
+      {{
+        "Id": 0,
+        "ProductGroup": {0.loai_thuc_don},
+        "ProductType": 2,
+        "CategoryId": {0.id_nhom_hang},
+        "CategoryName": "",
+        "isActive": true,
+        "HasVariants": {0.co_thuoc_tinh},
+        "AllowsSale": {0.ban_truc_tiep},
+        "isDeleted": false,
+        "Code": "{0.ma_hang_hoa}",
+        "BasePrice": {0.gia_ban},
+        "Cost": {0.gia_von},
+        "LatestPurchasePrice": 0,
+        "OnHand": {0.ton_kho},
+        "OnHandCompareMin": 0,
+        "OnHandCompareMax": 0,
+        "CompareOnHand": 0,
+        "CompareCost": 0,
+        "CompareBasePrice": 0,
+        "CompareCode": "",
+        "CompareUnit": "",
+        "CompareProductGroup": 1,
+        "Reserved": 0,
+        "MinQuantity": {0.ton_min},
+        "MaxQuantity": {0.ton_max},
+        "CustomId": 0,
+        "CustomValue": 0,
+        "MasterProductId": 0,
+        "Unit": "{0.don_vi_tinh}",
+        "ConversionValue": {0.gia_tri_qui_doi},
+        "OrderTemplate": "{0.ghi_chu}",
+        "IsLotSerialControl": false,
+        "IsRewardPoint": {0.tich_diem},
+        "HaveProcessedGoodsChild": false,
+        {0.data_vi_tri}
+        "Name": "{0.ten_hang_hoa}",
+        "Description": "{0.mo_ta}",
+        "Weight": {0.trong_luong},
+        {0.data_thuoc_tinh}
+        "ListPriceBookDetail": [],
+        {0.data_don_vi_tinh}
+        "IsTopping": {0.is_topping},
+        {0.data_topping}
+        "ProductImages": []
+      }}
+    ]
+  }}
+}}

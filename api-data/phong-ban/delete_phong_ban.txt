@@ -1,0 +1,11 @@
+{{
+  "api": "/tables/{0.id_ban}",
+  "api_params": [
+    "Name=vip2",
+    "Position=2",
+    "TableGroupName=---"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

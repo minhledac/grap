@@ -1,0 +1,14 @@
+{{
+  "api": "/formula",
+  "api_params": [
+    "format=json",
+    "Includes=Material",
+    "OrderBy=Id",
+    "%24inlinecount=allpages",
+    "%24top=15",
+    "%24filter=ProductId+eq+{0.product_id}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

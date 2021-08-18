@@ -1,0 +1,16 @@
+{{
+  "api": "/pricebook/getall",
+  "api_params": [
+    "includeAll=true",
+    "Includes=PriceBookBranches",
+    "Includes=PriceBookCustomerGroups",
+    "Includes=PriceBookUsers",
+    "Includes=PriceBookTableAndRooms",
+    "Includes=PriceBookDiningOptions",
+    "Includes=PriceBookGroups",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,11 @@
+{{
+  "api": "/attributes",
+  "api_params": [
+    "ShowAddNew=true",
+    "%24inlinecount=allpages",
+    "_=1582788113522"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

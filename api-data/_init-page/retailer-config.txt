@@ -1,0 +1,7 @@
+{{
+  "api": "/system/retailer-config",
+  "api_params": [],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

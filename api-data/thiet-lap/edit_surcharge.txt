@@ -1,0 +1,29 @@
+{{
+  "api": "/surcharge",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+  "Surcharge": {{
+    "__type": "KiotViet.Persistence.Surcharge, KiotViet.Persistence",
+    "Id": {0.id},
+    "Code": "{0.code}",
+    "Name": "{0.name}",
+    "ForAllBranch": {0.for_all_branch},
+    "isActive": true,
+    "isAuto": {0.isAuto},
+    "RetailerId": {0.retailer_id},
+    "CreatedDate": "{0.createdDate}",
+    "CreatedBy": {0.createdBy},
+    "ModifiedDate": "{0.modifiedDate}",
+    "ModifiedBy": {0.modifiedBy},
+    "isReturnAuto": {0.isReturnAuto},
+    "SurchargeBranches": [{0.surcharge_branches}],
+    "InvoiceOrderSurcharges": [],
+    "Status": "Đang thu",
+    "IdForExpandRow": {0.id},
+    {0.data_surcharge}
+    "selectedBranch": []
+  }}
+}},
+  "files": "None"
+}}

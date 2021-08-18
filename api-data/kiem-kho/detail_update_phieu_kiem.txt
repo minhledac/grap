@@ -1,0 +1,11 @@
+{{
+  "api": "/stocktakes/{0.id_phieu_kiem}",
+  "api_params": [
+    "Includes=UserCreate",
+    "Includes=Branch",
+    "Includes=Product.ProductSerials"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

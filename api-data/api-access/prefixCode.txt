@@ -1,0 +1,9 @@
+{{
+  "api": "/orders/getOrderPrefix",
+  "api_params": [
+    "format=json"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,20 @@
+{{
+  "api": "/partnerdelivery",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "PartnerDelivery": {{
+      "Type": 0,
+      "temploc": "",
+      "tempw": "",
+      "Code": "{0.ma_doi_tac}",
+      "Name": "{0.ten_doi_tac}",
+      "ContactNumber": "{0.sdt_doi_tac}",
+      {0.data_nhom_doi_tac}
+      "RetailerId": 611943,
+      "LocationName": "",
+      "WardName": ""
+    }}
+  }},
+  "files": "None"
+}}

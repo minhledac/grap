@@ -1,0 +1,24 @@
+{{
+  "api": "/customers",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Customer": {{
+      "BranchId": {0.branch_id},
+      "IsActive": true,
+      "Type": 0,
+      "temploc": "",
+      "tempw": "",
+      "Code": "{0.code}",
+      "Name": "{0.name}",
+      "ContactNumber": "{0.phone_number}",
+      "Address": "{0.address}",
+      "LocationName": "",
+      "WardName": "",
+      "CustomerGroupDetails": [{0.customer_group}],
+      "RetailerId": {0.retailer_id},
+      "Uuid": "{0.uuid}"
+    }}
+  }},
+  "files": "None"
+}}

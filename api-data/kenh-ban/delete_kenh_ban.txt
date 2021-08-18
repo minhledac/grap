@@ -1,0 +1,9 @@
+{{
+  "api": "/salechannel/{0.SaleChannel_id}",
+  "api_params": [
+    "Name="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

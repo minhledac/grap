@@ -1,0 +1,7 @@
+{{
+  "api": "/partners",
+  "api_params": [],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

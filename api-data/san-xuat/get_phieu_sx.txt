@@ -1,0 +1,14 @@
+{{
+  "api": "/manufacturing",
+  "api_params": [
+    "format=json",
+    "Includes=Product",
+    "Includes=User",
+    "%24inlinecount=allpages",
+    "%24top=100",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

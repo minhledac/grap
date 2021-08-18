@@ -1,0 +1,40 @@
+{{
+  "api": "/returns",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Return": {{
+    "Uuid": "{0.uuid}",
+    "BranchId": {0.branch_id},
+    "Code": "Trả hàng 1",
+    {0.data_invoice}
+    {0.data_thoi_gian}
+    "ReceivedById": {0.id_nguoi_tra},
+    "ReturnDiscount": 0,
+    "TotalBeforeDiscount": 0,
+    "TotalReturn": 0,
+    "InvoiceOrderSurcharges": [{0.InvoiceOrderSurcharges}],
+    "ReturnSurcharges": [{0.returnSurcharges}],
+    "Payments": [
+      {{
+        "Method": "Cash",
+        "MethodStr": "Tiền mặt",
+        "Amount": {0.da_tra_khach}
+      }}
+    ],
+    "Surcharge": {0.surcharge},
+    {0.data_ghi_chu}
+    "Type": 3,
+    "PayingAmount": {0.da_tra_khach},
+    {0.data_customer}
+    "ProductDiscount": 0,
+    "ReturnDetails": [
+      {0.data_product}
+    ],
+    "txtPay": "Tiền trả khách",
+    "SoldById": {0.id_nguoi_tra},
+    "ReturnAmountForPrint": {0.da_tra_khach}
+  }}
+  }},
+  "files": "None"
+}}

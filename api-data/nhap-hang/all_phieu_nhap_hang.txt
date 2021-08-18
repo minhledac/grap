@@ -1,0 +1,19 @@
+{{
+  "api": "/purchaseOrders",
+  "api_params": [
+    "format=json",
+    "Includes=Branch",
+    "Includes=Total",
+    "Includes=PaidAmount",
+    "Includes=TotalQuantity",
+    "Includes=TotalProductType",
+    "Includes=SubTotal",
+    "Includes=Supplier",
+    "Includes=User",
+    "Includes=User1",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

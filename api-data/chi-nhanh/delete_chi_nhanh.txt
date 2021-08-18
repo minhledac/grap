@@ -1,0 +1,9 @@
+{{
+  "api": "/branchs",
+  "api_params": [
+    "Id={0.id_chi_nhanh}"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

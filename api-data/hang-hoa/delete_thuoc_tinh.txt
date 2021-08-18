@@ -1,0 +1,7 @@
+{{
+  "api": "/attributes/{0}",
+  "api_params": [],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

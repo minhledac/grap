@@ -1,0 +1,13 @@
+{{
+  "api": "/invoicesdelivery",
+  "api_params": [
+    "format=json",
+    "%24inlinecount=allpages",
+    "DeliveryPartnerId={0.delivery_partner_id}",
+    "DateFilterType=alltime",
+    "%24top=50"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

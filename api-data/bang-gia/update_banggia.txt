@@ -1,0 +1,18 @@
+{{
+  "api": "/pricebook/calcprice",
+  "api_params":[],
+  "method": "POST",
+  "data":{{
+     "PriceBookId":{0.pricebook_id},
+     "PriceBookName":"",
+     "CalcPriceType":"{0.price_type}",
+     "CalcPriceTypeName":"",
+     "Operator":{0.operator},
+     "CalcValue":"{0.value}",
+     "CalcValueType":"{0.value_type}",
+     "Keyword":"",
+     "CategoryId":0,
+     "Number":{0.pr_quantity}
+  }},
+  "files": "None"
+}}

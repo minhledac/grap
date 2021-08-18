@@ -1,0 +1,5 @@
+{{{{
+   "eventId":"{0.cus_event_id_ver}",
+   "eventType":"AdjustedOrderItemQuantityEvent",
+   "rawData":"{{{{\"eventId\":\"{0.cus_event_id_ver}\",\"eventType\":\"AdjustedOrderItemQuantityEvent\",\"aggregateId\":\"{0.aggregate_id}\",\"aggregateType\":\"Order\",\"localTime\":{0.cus_local_time},\"orderItemId\":\"{0.order_item_id}\",\"adjustQuantity\":{0.adjust_quantity},\"cancelReason\":null,\"trackVersion\":{0.cus_track_ver},\"localVersion\":{0.cus_event_ver},\"originVersion\":{0.cus_event_ver},\"tenantId\":{0.retailer_id},\"branchId\":{0.branch_id},\"userId\":{0.user_id},\"replicaInfo\":\"{0.replica_id}\",\"eventMetadata\":{{{{\"fireBaseToken\":\"{0.firebase_token}\"}}}} }}}}"
+}}}}

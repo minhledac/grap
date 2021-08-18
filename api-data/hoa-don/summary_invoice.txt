@@ -1,0 +1,15 @@
+{{
+  "api": "/invoices/summary",
+  "api_params": [
+    "format=json",
+    "Includes=BranchName",
+    "Includes=Branch",
+    "%24inlinecount=allpages",
+    "ExpectedDeliveryFilterType=alltime",
+    "TableGroupIds=%5B%5D",
+    "%24filter={0.data_filter}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

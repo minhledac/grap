@@ -1,0 +1,33 @@
+{{
+  "api": "/manufacturing",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Manufacturing": {{
+      "Id": 0,
+      "Code": "{0.ma_phieu_sx}",
+      "Description": "{0.ghi_chu}",
+      "Quantity": {0.so_luong_sx},
+      "Product": {{
+        "__type": "<>f__AnonymousType130`14[[System.Int64, mscorlib],[System.String, mscorlib],[System.String, mscorlib],[System.Decimal, mscorlib],[System.Double, mscorlib],[System.Decimal, mscorlib],[System.Decimal, mscorlib],[System.Nullable`1[[System.Int64, mscorlib]], mscorlib],[System.Double, mscorlib],[System.Boolean, mscorlib],[System.Nullable`1[[System.Byte, mscorlib]], mscorlib],[System.Nullable`1[[System.Int32, mscorlib]], mscorlib],[System.Nullable`1[[System.Boolean, mscorlib]], mscorlib],[System.Nullable`1[[System.Boolean, mscorlib]], mscorlib]], KiotViet.Web.Api",
+        "Id": {0.product_id},
+        "Name": "",
+        "Code": "",
+        "BasePrice": 0,
+        "OnHand": 0,
+        "Cost": 0,
+        "LatestPurchasePrice": 0,
+        "Reserved": 0,
+        "IsLotSerialControl": false,
+        "ProductType": 2,
+        "ProductFormulaHistoryId": 0,
+        "IsTimeType": false
+      }},
+      "Status": {0.trangthai_phieu},
+      "ManufacturingDate": "{0.thoigian_sx}",
+      "ProductId": {0.product_id},
+      "ProductCode": ""
+    }}
+  }},
+  "files": "None"
+}}

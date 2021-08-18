@@ -1,0 +1,9 @@
+{{
+  "api": "/productimage/{0.product_id}",
+  "api_params": [
+    "limit=5"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

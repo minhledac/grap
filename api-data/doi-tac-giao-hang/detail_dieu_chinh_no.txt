@@ -1,0 +1,9 @@
+{{
+  "api": "/partnerdelivery/adjustment/{0.document_id}",
+  "api_params": [
+    "Includes=User"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,14 @@
+{{
+  "api": "/categories",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Category": {{
+      "Id": 0,
+      "Name": "{0.ten_nhom}",
+      "ParentId": {0.id_nhom_cha}
+    }},
+    "CompareCateName": ""
+  }},
+  "files": "None"
+}}

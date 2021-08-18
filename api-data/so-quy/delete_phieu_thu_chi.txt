@@ -1,0 +1,10 @@
+{{
+  "api": "/cashflow/{0.id_phieu}",
+  "api_params": [
+    "CompareCode=",
+    "CompareValue="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

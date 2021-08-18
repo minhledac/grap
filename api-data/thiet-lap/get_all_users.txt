@@ -1,0 +1,14 @@
+{{
+  "api": "/users",
+  "api_params": [
+    "format=json",
+    "ExcludeMe={0.is_ExcludeMe}",
+    "Includes=Permissions",
+    "%24inlinecount=allpages",
+    "%24top=100",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

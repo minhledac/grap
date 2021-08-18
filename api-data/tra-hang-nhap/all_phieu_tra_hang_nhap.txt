@@ -1,0 +1,24 @@
+{{
+  "api": "/purchasereturns",
+  "api_params": [
+    "format=json",
+    "Includes=Branch",
+    "Includes=PurchaseOrder",
+    "Includes=Supplier",
+    "Includes=TotalReturn",
+    "Includes=TotalQuantity",
+    "Includes=User",
+    "Includes=User1",
+    "Includes=PaymentCode",
+    "Includes=PaymentId",
+    "Includes=TotalPayment",
+    "Includes=TotalProductType",
+    "ForSummaryRow=true",
+    "%24inlinecount=allpages",
+    {0.data_filter}
+    "%24top={0.so_ban_ghi}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,9 @@
+{{
+  "api": "/purchasepayments",
+  "api_params": [
+    "Code={0.ma_phieu}"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,10 @@
+{{
+  "api": "/invoices/dashboard",
+  "api_params": [
+    "$filter={0.data_filter}",
+    "TotalValueOnly=true"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

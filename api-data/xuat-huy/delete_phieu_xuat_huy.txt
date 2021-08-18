@@ -1,0 +1,11 @@
+{{
+  "api": "/damageItems",
+  "api_params": [
+    "CompareDamageItemCode=0",
+    "CompareStatus=1",
+    "Id={0.id_phieu_xh}"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

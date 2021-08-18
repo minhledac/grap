@@ -1,0 +1,47 @@
+{{
+  "api": "/campaigns",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Campaign": {{
+      "Id": 0,
+      "Name": "{0.name_promotion}",
+      "IsActive": {0.IsActive},
+      "ApplyMonths": "{0.ApplyMonths}",
+      "ApplyDates": "{0.ApplyDates}",
+      "Weekday": "",
+      "Hour": "[]",
+      "IsGlobal": true,
+      "ForAllUser": true,
+      "ForAllCusGroup": true,
+      "Type": {0.type},
+      "PromotionType": {0.promotionType},
+      "InvoiceValueType": 1,
+      "SalePromotions":[
+          {0.SalePromotions}
+      ],
+      "StartDate": "{0.start_date}",
+      "EndDate": "{0.end_date}",
+      "BirthdayTimeType": 1,
+      "AutoApplyPromotion": {0.autoApplyPromotion},
+      "RetailerId": {0.retailer_id},
+      "isLoading": false,
+      "selectedBranch": [
+          {0.list_branch_id}
+      ],
+      "selectedBranchObj": [],
+      "selectedUser": [],
+      "selectedUserObj": [],
+      "selectedCustomerGroup": [],
+      "selectedCustomerGroupObj": [],
+      "WeekOfMonth": 0,
+      "Code": "{0.code}",
+      "CampaignBranches": [],
+      "CampaignUsers": [],
+      "CampainCustomerGroups": [],
+      "ViewHour": "",
+      "ViewWeekOfMonth": ""
+    }}
+  }},
+  "files": "None"
+}}

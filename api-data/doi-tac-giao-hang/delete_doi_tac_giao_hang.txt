@@ -1,0 +1,10 @@
+{{
+  "api": "/partnerdelivery/{0.id_doi_tac}",
+  "api_params": [
+    "CompareCode=",
+    "CompareName="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

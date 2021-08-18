@@ -1,0 +1,12 @@
+{{
+  "api": "/manufacturing/getitems",
+  "api_params": [
+    "format=json",
+    "ManufacturingId={0.manufacturing_id}",
+    "%24inlinecount=allpages",
+    "%24top=15"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

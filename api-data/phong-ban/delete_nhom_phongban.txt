@@ -1,0 +1,7 @@
+{{
+  "api": "/tablegroups/{0.id_nhom_ban}",
+  "api_params": [],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

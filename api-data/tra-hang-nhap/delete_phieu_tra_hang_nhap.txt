@@ -1,0 +1,11 @@
+{{
+  "api": "/PurchaseReturns/{0.id_phieu}",
+  "api_params": [
+    "CompareCode=",
+    "CompareStatus=",
+    "IsVoidPayment={0.is_void_payment}"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

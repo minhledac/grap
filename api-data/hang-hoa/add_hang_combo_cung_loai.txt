@@ -1,0 +1,51 @@
+{{
+  "api": "/products/addmany",
+  "api_params": [],
+  "method": "POST",
+  "data": "None",
+  "files": {{
+    "ListProducts": [
+      {{
+        "Id": 0,
+        "ProductGroup": {0.loai_thuc_don},
+        "ProductType": 1,
+        "CategoryId": {0.id_nhom_hang},
+        "CategoryName": "",
+        "isActive": true,
+        "HasVariants": true,
+        "AllowsSale": true,
+        "isDeleted": false,
+        "Code": "{0.ma_hang_hoa}",
+        "BasePrice": {0.gia_ban},
+        "Cost": 0,
+        "LatestPurchasePrice": 0,
+        "OnHand": 0,
+        "OnHandCompareMin": 0,
+        "OnHandCompareMax": 0,
+        "CompareOnHand": 0,
+        "CompareCost": 0,
+        "CompareBasePrice": 0,
+        "CompareCode": "",
+        "CompareUnit": "",
+        "CompareProductGroup": 1,
+        "Reserved": 0,
+        "MinQuantity": 0,
+        "MaxQuantity": 999999999,
+        "CustomId": 0,
+        "CustomValue": 0,
+        "MasterProductId": 0,
+        "Unit": "{0.don_vi_tinh}",
+        "ConversionValue": 1,
+        "OrderTemplate": "",
+        "IsLotSerialControl": false,
+        "IsRewardPoint": false,
+        "HaveProcessedGoodsChild": false,
+        {0.data_hangtp}
+        "Name": "{0.ten_hang_hoa}",
+        {0.data_thuoc_tinh}
+        "ListPriceBookDetail": [],
+        "ProductImages": []
+      }}
+    ]
+  }}
+}}

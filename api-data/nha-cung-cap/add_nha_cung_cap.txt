@@ -1,0 +1,22 @@
+{{
+  "api": "/suppliers",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Supplier": {{
+      "Debt": 0,
+      "Type": 0,
+      "temploc": "",
+      "tempw": "",
+      "Code": "{0.ma_ncc}",
+      "Name": "{0.ten_ncc}",
+      "Phone": "{0.sdt_ncc}",
+      "Address": "{0.dia_chi}",
+      "RetailerId": {0.retailer_id},
+      "LocationName": "",
+      "WardName": "",
+      "SupplierGroupDetails": [{0.data_group}]
+    }}
+  }},
+  "files": "None"
+}}

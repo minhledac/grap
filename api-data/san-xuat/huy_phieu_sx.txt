@@ -1,0 +1,10 @@
+{{
+  "api": "/manufacturing/{0.id_phieu_sx}",
+  "api_params": [
+    "CompareCode=",
+    "CompareStatus="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

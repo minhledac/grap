@@ -1,0 +1,11 @@
+{{
+  "api": "/products/deleteproductlist",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Ids": [
+      {0}
+    ]
+  }},
+  "files": "None"
+}}

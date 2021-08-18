@@ -1,0 +1,13 @@
+{{
+  "api": "campaigns",
+  "api_params": [
+    "format=json",
+    "Includes=SalePromotions",
+    "%24inlinecount=allpages",
+    "%24top=50",
+    "%24filter=IsActive eq 1"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

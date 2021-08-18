@@ -1,0 +1,12 @@
+{{
+  "api": "/partnerdelivery/{0.delivery_partner_id}/debt",
+  "api_params": [
+    "format=json",
+    "GroupCode=true",
+    "%24inlinecount=allpages",
+    "%24top=50"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

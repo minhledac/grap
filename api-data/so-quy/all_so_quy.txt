@@ -1,0 +1,15 @@
+{{
+  "api": "/cashflow",
+  "api_params": [
+    "format=json",
+    "IncludeTotal=True",
+    "IncludeBranch=True",
+    "IncludeUser=True",
+    "%24inlinecount=allpages",
+    "%24top={0.so_ban_ghi}",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

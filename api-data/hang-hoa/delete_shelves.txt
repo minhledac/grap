@@ -1,0 +1,9 @@
+{{
+  "api": "/shelves/{0}",
+  "api_params": [
+    "IsConfirmed=true"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

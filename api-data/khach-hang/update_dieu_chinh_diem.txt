@@ -1,0 +1,18 @@
+{{
+  "api": "/customers/{0.id_khach_hang}/point",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Adjustment": {{
+      "Balance": {0.gt_tich_diem},
+      "Description": "{0.mo_ta}",
+      "AdjustmentDate": "",
+      "Value": 0
+    }},
+    "customerId": {0.id_khach_hang},
+    "CompareCode": "",
+    "CompareName": "",
+    "CompareBalance": 0
+  }},
+  "files": "None"
+}}

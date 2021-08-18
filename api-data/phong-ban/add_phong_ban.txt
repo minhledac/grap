@@ -1,0 +1,14 @@
+{{
+  "api": "/tables",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Table": {{
+      "Id": 0,
+      "Name": "{0.ten_ban}",
+      "GroupId": "{0.id_nhom_ban}",
+      "Position": 1
+    }}
+  }},
+  "files": "None"
+}}

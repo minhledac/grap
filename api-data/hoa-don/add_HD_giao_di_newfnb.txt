@@ -1,0 +1,67 @@
+{{
+  "api": "/invoices/new-fnb",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Invoice": {{
+      "Uuid": "{0.uuid_invoice}",
+      "BranchId": {0.branch_id},
+      "Code": "{0.order_code}",
+      "OrderCode": "{0.order_code}",
+      {0.data_customer}
+      "SoldById": {0.SoldBy_id},
+      {0.data_salechanel}
+      {0.data_pricebook}
+      {0.data_description}
+      "Discount": {0.order_discount},
+      "PurchaseDate": "{0.PurchaseDate}",
+      "InvoiceDetails": [
+        {0.data_product}
+      ], 
+      "InvoiceOrderSurcharges": [{0.data_surchange}],
+      "DeliveryDetail": {{
+        "Type": 0,
+        "TypeName": "",
+        "Status": {0.status},
+        "ContactNumber": "{0.receiver_phone}",
+        "Address": "{0.receiver_address}",
+        "UsingPriceCod": {0.thu_ho_tien},
+        "WardName": "{0.ward_name}",
+        "LocationName": {0.location_name},
+        "LastLocation": {0.location_name}
+        {0.data_receiver}
+        {0.data_expected_delivery}
+        {0.data_delivery_price}
+        {0.data_delivery_code}
+        {0.data_location}
+        {0.data_partner_delivery}
+      }},
+      "Payments": [
+        {{
+          "Method": "Cash",
+          "MethodStr": "Tiền mặt",
+          "Amount": {0.real_payment}
+        }}
+      ],
+      "Status": {0.status},
+      "Total": {0.total},
+      "Surcharge": {0.total_surchange},
+      "Type": 1,
+      "PayingAmount": {0.customer_payment},
+      "TotalBeforeDiscount": null,
+      "ProductDiscount": 0,
+      "TableId": -1,
+      "DiningOption": 1,
+      "EntryDate": "",
+      "UsingCod": 1,
+      "IsCopyInvoice": false,
+      "SubTotal": {0.sub_total},
+      "OrderUuid": "{0.uuid_invoice}"
+    }},
+    "SendToPrint": true,
+    "IsCopyInvoice": false,
+    "Remark": "",
+    "IsPartialPayment": false
+  }},
+  "files": "None"
+}}

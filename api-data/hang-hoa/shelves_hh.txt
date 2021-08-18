@@ -1,0 +1,10 @@
+{{
+  "api": "/shelves",
+  "api_params": [
+    "Orderby=Name",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

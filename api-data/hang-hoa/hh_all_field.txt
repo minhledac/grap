@@ -1,0 +1,8 @@
+{{
+  "api": "/branchs/{0.branch_id}/products?format=json&Includes=ProductAttributes&IsTabVariants=true&%24inlinecount=allpages&CategoryId={0.categoryId}",
+  "api_params": [
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

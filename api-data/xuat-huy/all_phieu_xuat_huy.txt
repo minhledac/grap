@@ -1,0 +1,17 @@
+{{
+  "api": "/damageItems",
+  "api_params": [
+    "format=json",
+    "Includes=TotalAmount",
+    "Includes=TotalQuantity",
+    "Includes=User",
+    "Includes=User1",
+    "Includes=Branch",
+    "%24inlinecount=allpages",
+    "%24top=100",
+    "%24filter={0.filter_data}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

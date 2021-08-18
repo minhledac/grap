@@ -1,0 +1,10 @@
+{{
+  "api": "/suppliers/{0}",
+  "api_params": [
+    "CompareCode=",
+    "CompareName="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

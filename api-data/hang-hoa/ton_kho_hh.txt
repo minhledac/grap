@@ -1,0 +1,7 @@
+{{
+  "api": "/products/{0.product_id}/onhandbybranch",
+  "api_params": [],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

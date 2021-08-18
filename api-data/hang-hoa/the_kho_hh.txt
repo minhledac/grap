@@ -1,0 +1,12 @@
+{{
+  "api": "/products/{0.product_id}/history",
+  "api_params": [
+    "format=json",
+    "%24inlinecount=allpages",
+    "%24top=15",
+    "%24filter=BranchId+eq+{0.branch_id}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

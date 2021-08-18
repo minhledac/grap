@@ -1,0 +1,12 @@
+{{
+  "api": "/tables",
+  "api_params": [
+    "format=json",
+    "Includes=TableGroup",
+    "%24inlinecount=allpages",
+    "%24top={0.so_ban_ghi}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

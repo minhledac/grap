@@ -1,0 +1,13 @@
+{{
+  "api": "/suppliers/{0.id_ncc}/transactionhistory",
+  "api_params": [
+    "format=json",
+    "Includes=Total",
+    "%24inlinecount=allpages",
+    "%24top=",
+    "%24filter=PurchaseDate+eq+'alltime'"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

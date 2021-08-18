@@ -1,0 +1,14 @@
+{{
+  "api": "/topping",
+  "api_params": [
+    "format=json",
+    "Includes={0.type_mt}",
+    "OrderBy=Id",
+    "%24inlinecount=allpages",
+    "%24top=15",
+    "%24filter={0.type_Id}+eq+{0.product_id}"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

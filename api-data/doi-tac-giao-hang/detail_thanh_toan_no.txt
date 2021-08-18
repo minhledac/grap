@@ -1,0 +1,20 @@
+{{
+  "api": "/purchasepayments/{0.document_id}",
+  "api_params": [
+    "ForDetail=1",
+    "Includes=User",
+    "Includes=OrderValue",
+    "Includes=PaidValue",
+    "Includes=Supplier",
+    "Includes=SupplierName",
+    "Includes=TargetCode",
+    "Includes=PurchaseOrder",
+    "Includes=SupplierCode",
+    "Includes=BankAccount",
+    "Includes=PartnerDelivery",
+    "Includes=CreatedName"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

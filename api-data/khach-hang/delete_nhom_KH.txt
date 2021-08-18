@@ -1,0 +1,9 @@
+{{
+  "api": "/customers/group/{0.id_group}",
+  "api_params": [
+    "CompareName="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

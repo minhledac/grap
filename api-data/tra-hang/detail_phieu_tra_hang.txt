@@ -1,0 +1,13 @@
+{{
+  "api": "/returns/{0.id_phieu}",
+  "api_params": [
+    "Includes=TotalPayment",
+    "Includes=TotalReturn",
+    "Includes=Invoice",
+    "Includes=Payments",
+    "Includes=Customer"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

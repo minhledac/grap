@@ -1,0 +1,47 @@
+{{
+  "api": "/damageItems",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "DamageItem": {{
+      "Code": "{0.ma_phieu_xh}",
+      "DamageDetails": [
+        {0.data_product}
+      ],
+      "UserId": {0.user_id},
+      "CompareUserId": {0.user_id},
+      "User": {{
+        "id": {0.user_id},
+        "username": "",
+        "givenName": "",
+        "Id": {0.user_id},
+        "UserName": "admin",
+        "GivenName": "",
+        "IsAdmin": true,
+        "IsLimitedByTrans": false,
+        "IsShowSumRow": true,
+        "Theme": ""
+      }},
+      "Description": "{0.ghi_chu}",
+      "Branch": {{
+        "id": {0.branch_id},
+        "name": "",
+        "Id": {0.branch_id},
+        "Name": "",
+        "Address": "",
+        "LocationName": "",
+        "WardName": "",
+        "ContactNumber": ""
+      }},
+      "Status": 1,
+      "CompareStatus": 1,
+      "StatusValue": "Phiếu tạm",
+      "Id": 0,
+      "TotalQuantity": 0,
+      "TotalDamageCost": 0,
+      "SubTotal": 0
+    }},
+    "Complete": {0.complete}
+  }},
+  "files": "None"
+}}

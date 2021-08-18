@@ -1,0 +1,17 @@
+{{
+  "api": "/purchasepayments/",
+  "api_params": [
+    "OrderId={0.id_phieu_nhap}",
+    "format=json",
+    "Includes=User",
+    "Includes=OrderValue",
+    "Includes=PaidValue",
+    "Includes=SupplierName",
+    "Includes=PurchaseOrder",
+    "Includes=CreatedName",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

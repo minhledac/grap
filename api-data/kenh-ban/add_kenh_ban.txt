@@ -1,0 +1,16 @@
+{{
+  "api": "/salechannel",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "SaleChannel": {{
+      "Id": 0,
+      "Name": "{0.SaleChannel_name}",
+      "IsActive": {0.is_active},
+      "Img": "fas fa-shopping-cart",
+      "Description": "{0.SaleChannel_des}"
+    }},
+    "CompareCateName": ""
+  }},
+  "files": "None"
+}}

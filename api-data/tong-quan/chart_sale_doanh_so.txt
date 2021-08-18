@@ -1,0 +1,13 @@
+{{
+  "api": "/charts/sale/",
+  "api_params": [
+    "format=json",
+    "IsDashboard=true",
+    "viewType=PurchaseDateFnb",
+    "typeTime=HH:00",
+    "Filter=%7B%22TimeRange%22%3A%22{0.filter_thoi_gian}%22%2C%22timeStamp%22%3A%222020-06-24T06%3A49%3A55.295Z%22%7D"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,17 @@
+{{
+  "api": "/partnerdelivery/{0.id_doi_tac}/debt",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Adjustment": {{
+      "Balance": {0.gt_no_dieuchinh},
+      "Description": "{0.mo_ta}",
+      "Value": null,
+      "AdjustmentDate": ""
+    }},
+    "partnerdeliveryId": {0.id_doi_tac},
+    "CompareCode": "",
+    "CompareName": ""
+  }},
+  "files": "None"
+}}

@@ -1,0 +1,20 @@
+{{
+  "api": "/stocktakes",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "IsAdjust": {0.is_adjust},
+    "StockTake": {{
+      "CreatedBy": {0.user_id},
+      "BranchId": {0.branch_id},
+      "Id": 0,
+      "Code": "{0.ma_phieu_kiem}",
+      "CreatedDate": "{0.thoi_gian}",
+      "Description": "{0.ghi_chu}",
+      "RecentHistory": "[{0.data_recent_history}]"
+    }},
+    {0.data_hang_hoa}
+    "CompareIsAjust": false
+  }},
+  "files": "None"
+}}

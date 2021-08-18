@@ -1,0 +1,9 @@
+{{
+   "events":[
+      {0.primary_event}
+      {0.secondary_event}
+   ],
+   "replicaId":"{0.replica_id}",
+   "localVersion":{0.local_ver},
+   "remoteVersion":{0.remote_ver}
+}}

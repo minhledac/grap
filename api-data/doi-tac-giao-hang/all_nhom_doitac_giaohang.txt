@@ -1,0 +1,10 @@
+{{
+  "api": "/partnerdelivery/group",
+  "api_params": [
+    "IsFilter=true",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

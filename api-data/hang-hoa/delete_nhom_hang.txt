@@ -1,0 +1,9 @@
+{{
+  "api": "/categories",
+  "api_params": [
+    "Id={0}"
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

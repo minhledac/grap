@@ -1,0 +1,11 @@
+{{
+  "api": "/partnerdelivery/invoicesdelivery",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "InvoiceId": {0.invoice_id},
+    "Price": {0.delivery_charges},
+    "Status": {0.status}
+  }},
+  "files": "None"
+}}

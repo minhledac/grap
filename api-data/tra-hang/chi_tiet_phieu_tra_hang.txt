@@ -1,0 +1,14 @@
+{{
+  "api": "/returns/{0.id_phieu_tra}/details",
+  "api_params": [
+    "format=json",
+    "Includes=ProductName",
+    "Includes=ProductSName",
+    "Includes=ProductCode",
+    "Includes=Product",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

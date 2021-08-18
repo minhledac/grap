@@ -1,0 +1,13 @@
+{{
+  "api": "/customers/{0.customer_id}/debt",
+  "api_params": [
+    "format=json",
+    "GroupCode=true",
+    "Includes=ZeroInvoice",
+    "%24inlinecount=allpages",
+    "%24top=50"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

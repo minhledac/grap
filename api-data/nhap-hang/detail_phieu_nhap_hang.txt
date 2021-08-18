@@ -1,0 +1,12 @@
+{{
+  "api": "/purchaseOrders/{0.id_phieu_nhap}/details",
+  "api_params": [
+    "format=json",
+    "Includes=Product",
+    "Includes=Product",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

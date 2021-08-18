@@ -1,0 +1,10 @@
+{{
+  "api": "/cashflow/{0.id_phieu_thuchi}",
+  "api_params": [
+    "format=json",
+    "IncludeUser=true"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

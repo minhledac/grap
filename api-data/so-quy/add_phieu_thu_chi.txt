@@ -1,0 +1,25 @@
+{{
+  "api": "/cashflow",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Cashflow": {{
+      "Value": {0.gia_tri},
+      "UsedForFinancialReporting": true,
+      "PartnerType": "O",
+      "PaymentMethod": "{0.phuong_thuc}",
+      "Code": "{0.ma_phieu}",
+      "PartnerId": {0.id_nguoi_nop},
+      "PartnerName": "",
+      "PartnerContactNo": "",
+      "CashFlowGroupId": null,
+      "BranchId": {0.branch_id}
+      {0.data_tai_khoan}
+    }},
+    "ComparePartnerName": "",
+    "CashflowGroupName": "{0.loai_thu_chi}",
+    "CompareCashflowGroupName": "{0.loai_thu_chi}",
+    "PartnerName": ""
+  }},
+  "files": "None"
+}}

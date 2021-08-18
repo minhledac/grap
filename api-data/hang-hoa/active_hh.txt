@@ -1,0 +1,10 @@
+{{
+  "api": "/products/{0.product_id}/activeproduct",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "productId": {0.product_id},
+    "CompareCode": ""
+  }},
+  "files": "None"
+}}

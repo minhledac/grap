@@ -1,0 +1,10 @@
+{{
+  "api": "/stocktakes/{0.id_phieu_kiem}",
+  "api_params": [
+    "CompareCode=",
+    "CompareStatusId="
+  ],
+  "method": "DELETE",
+  "data": "None",
+  "files": "None"
+}}

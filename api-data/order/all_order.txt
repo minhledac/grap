@@ -1,0 +1,23 @@
+{{
+  "api": "/Orders",
+  "api_params": [
+    "format=json",
+    "Includes=Branch",
+    "Includes=Customer",
+    "Includes=Payments",
+    "Includes=Seller",
+    "Includes=User",
+    "Includes=InvoiceOrderSurcharges",
+    "Includes=InvoiceDeliveries",
+    "ForSummaryRow=true",
+    "ForManageScreen=true",
+    "Includes=TableAndRoom",
+    "%24inlinecount=allpages",
+    "ExpectedDeliveryFilterType=alltime",
+    "%24top={0.so_ban_ghi}",
+    "%24filter=(BranchId+eq+{0.branch_id}+and+PurchaseDate+eq+'{0.thoi_gian}'+and+{0.filter_status})"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,18 @@
+{{
+  "api": "/suppliers",
+  "api_params": [
+    "format=json",
+    "Includes=TotalInvoiced",
+    "Includes=LocationName",
+    "Includes=WardName",
+    "ForSummaryRow=true",
+    "%24inlinecount=allpages",
+    "GroupId=0",
+    "DateFilterType=alltime",
+    "%24top={0.so_ban_ghi}"
+    {0.data_filter}
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

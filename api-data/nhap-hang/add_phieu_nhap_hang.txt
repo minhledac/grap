@@ -1,0 +1,86 @@
+{{
+  "api": "/purchaseOrders",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "PurchaseOrder": {{
+      "Code": "{0.ma_phieu_nhap}",
+      "PurchaseOrderDetails": [
+        {0.data_product}
+      ],
+      "UserId": {0.user_id},
+      "CompareUserId": {0.user_id},
+      "User": {{
+        "id": {0.user_id},
+        "username": "",
+        "givenName": "",
+        "Id": {0.user_id},
+        "UserName": "",
+        "GivenName": "",
+        "IsAdmin": true,
+        "IsLimitedByTrans": false,
+        "IsShowSumRow": true,
+        "Theme": ""
+      }},
+      "Description": "{0.ghi_chu}",
+      "Supplier": {{
+        "TotalInvoiced": 0,
+        "CompareCode": "{0.ma_ncc}",
+        "CompareName": "",
+        "Id": {0.id_ncc},
+        "Name": "",
+        "RetailerId": {0.retailer_id},
+        "Code": "{0.ma_ncc}",
+        "CreatedDate": "",
+        "CreatedBy": 15583,
+        "Debt": 2000,
+        "isDeleted": false,
+        "isActive": true,
+        "PurchaseOrders": [],
+        "PurchaseReturns": [],
+        "PurchasePayments": [],
+        "SupplierGroupDetails": []
+      }},
+      "SupplierId": {0.id_ncc},
+      "CompareSupplierId": 0,
+      "SubTotal": 40000,
+      "Branch": {{
+        "id": {0.branch_id},
+        "name": "",
+        "Id": {0.branch_id},
+        "Name": "",
+        "Address": "",
+        "LocationName": "",
+        "WardName": "",
+        "ContactNumber": ""
+      }},
+      "Status": 1,
+      "StatusValue": "Phiếu tạm",
+      "CompareStatusValue": "Phiếu tạm",
+      {0.data_discount_purchase}
+      "Id": 0,
+      "Account": {{}},
+      "Total": 0,
+      "TotalQuantity": 5,
+      "ExpensesOthersTitle": "",
+      "ExpensesOthersRtpTitle": "",
+      "PurchaseOrderExpensesOthers": [{0.data_Expenses_full}],
+      "PurchaseOrderExpensesOthersRs": [{0.data_Expenses}],
+      "PurchaseOrderExpensesOthersRtp": [{0.data_Expenses_other}],
+      "ExReturnSuppliers": {0.tong_chi_phi_nhap},
+      "ExReturnThirdParty": {0.tong_chi_phi_khac},
+      "PaidAmount": 0,
+      "PayingAmount": {0.tien_tra_ncc},
+      "ChangeAmount": -10000,
+      "paymentMethod": "",
+      "BalanceDue": 40000,
+      "OriginTotal": 40000,
+      "paymentMethodObj": null,
+      {0.data_tra_ncc}
+      "BranchId": {0.branch_id}
+    }},
+    "Complete": {0.complete},
+    "CopyFrom": 0
+  }},
+  "files": "None"
+}}

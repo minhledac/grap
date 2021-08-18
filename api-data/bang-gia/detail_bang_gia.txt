@@ -1,0 +1,13 @@
+{{
+  "api": "/pricebook/getitems",
+  "api_params": [
+    "PriceBookId={0.Id_BG}",
+    "%24inlinecount=allpages",
+    "%24top={0.page_size}",
+    "%24skip=0"
+    {0.data_filter}
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

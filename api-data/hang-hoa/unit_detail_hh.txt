@@ -1,0 +1,9 @@
+{{
+  "api": "/products/{0.product_id}/initialdata",
+  "api_params": [
+    "Includes=ProductAttributes"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

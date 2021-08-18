@@ -1,0 +1,15 @@
+{{
+  "api": "/payments",
+  "api_params": [
+    "InvoiceId={0.invoice_id}",
+    "format=json",
+    "Includes=User",
+    "Includes=CustomerName",
+    "Includes=Invoice",
+    "GroupCode=true",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,13 @@
+{{
+  "api": "/partnerdelivery/group",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "PartnerDeliveryGroup": {{
+      "Id": 0,
+      "Name": "{0.ten_nhom_dt}",
+      "Description": ""
+    }}
+  }},
+  "files": "None"
+}}

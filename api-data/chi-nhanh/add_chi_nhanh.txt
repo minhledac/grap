@@ -1,0 +1,22 @@
+{{
+  "api": "/branchs",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Branch": {{
+      "temploc": "",
+      "tempw": "",
+      "Name": "{0.ten_chi_nhanh}",
+      "ContactNumber": "{0.sdt_cn}",
+      "Email": "{0.email_cn}",
+      "Address": "{0.dia_chi_cn}",
+      "LocationName": "",
+      "WardName": "",
+      "LocationId": {0.location_id}
+    }},
+    "IsAddMore": false,
+    "IsRemove": false,
+    "ApplyFrom": null
+  }},
+  "files": "None"
+}}

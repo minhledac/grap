@@ -1,0 +1,7 @@
+{{
+  "api": "/activities",
+  "api_params": [],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

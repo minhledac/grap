@@ -1,0 +1,19 @@
+{{
+  "api": "/customers/summary",
+  "api_params": [
+    "format=json",
+    "%24inlinecount=allpages",
+    "InvoicedLower=0",
+    "GroupId=0",
+    "DateFilterType=alltime",
+    "NewCustomerDateFilterType=alltime",
+    "NewCustomerLastTradingDateFilterType=alltime",
+    "CustomerBirthDateFilterType=alltime",
+    "FindString={0.ma_kh}",
+    "IsActive=true",
+    "%24filter=IsActive+eq+true"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

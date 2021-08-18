@@ -1,0 +1,21 @@
+{{
+  "api": "/surcharge",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "Surcharge": {{
+      "ForAllBranch": {0.for_all_branch},
+      "isAuto": {0.is_auto},
+      "isActive": true,
+      "isReturnAuto": {0.is_return_auto},
+      {0.data_surcharge}
+      "Code":"{0.surcharge_code}",
+      "Name": "{0.surcharge_name}",
+      {0.order}
+      "RetailerId": {0.retailer_id},
+      "SurchargeBranches": [{0.surcharge_branches}],
+      "selectedBranch": []
+    }}
+  }},
+  "files": "None"
+}}

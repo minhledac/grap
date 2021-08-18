@@ -1,0 +1,22 @@
+{{
+  "api": "/expensesOther",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "ExpensesOther": {{
+      "ForAllBranch": 1,
+      "isAuto": {0.is_auto},
+      "isActive": true,
+      "IsForBranch": true,
+      "selectedBranch": [],
+      "Code": "{0.ma_chi_phi}",
+      "Name": "{0.ten_chi_phi}",
+      {0.data_discount}
+      "Form": {0.loai_chi_phi},
+      "isReturnAuto": {0.is_return_auto},
+      "RetailerId": {0.retailer_id},
+      "ExpensesOtherBranches": []
+    }}
+  }},
+  "files": "None"
+}}

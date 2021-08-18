@@ -1,0 +1,11 @@
+{{
+  "api": "/damageitems/{0.id_phieu_xh}/details",
+  "api_params": [
+    "format=json",
+    "Includes=Product",
+    "%24inlinecount=allpages"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

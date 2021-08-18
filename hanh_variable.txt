@@ -1,0 +1,10 @@
+--doc Thuc hien chay TestScript
+# ============ List variable ==========
+-d ../reports
+--variable app_name:MAN
+--variable retailer:autofnbz33a
+--variable browser:Chrome
+--variable username:admin
+--variable enable_log:True
+--variable speed:0
+--variable remote:http://localhost:9090/wd/hub

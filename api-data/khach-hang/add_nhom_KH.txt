@@ -1,0 +1,25 @@
+{{
+  "api": "/customers/group",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "CustomerGroup": {{
+      "Id": 0,
+      "Name": "{0.ten_nhom_kh}",
+      "Description": "",
+      "filters": [],
+      "Discount": {0.giam_gia},
+      "DiscountRatio": {0.giam_gia_phan_tram},
+      "CompareName": "",
+      "CompareDiscount": null,
+      "CompareDiscountRatio": null,
+      "typeUpdateList": 1,
+      "isSystemAutoUpdate": 0,
+      "DiscountType": "{0.loai_giam_gia}",
+      "DiscountValue": {0.gia_tri_giam_gia},
+      "Filter": "[]",
+      "TypeUpdate": 1
+    }}
+  }},
+  "files": "None"
+}}

@@ -1,0 +1,5 @@
+{{
+  "eventId": "{0.event_id_ver}",
+  "eventType": "CreatedOrderEvent",
+  "rawData": "{{\"eventId\":\"{0.event_id_ver}\",\"eventType\":\"CreatedOrderEvent\",\"aggregateId\":\"{0.aggregate_id}\",\"aggregateType\":\"Order\",\"localTime\":{0.local_time},\"code\":\"{0.order_code}\",\"forBranchId\":{0.branch_id},\"priceBookId\":{0.pricebook_id},\"diningOption\":{0.dining_option},\"soldById\":{0.user_id},\"tableIds\":[{0.table_id}],\"entryDate\":\"{0.trans_date}+07:00\",\"trackVersion\":{0.track_ver},\"localVersion\":{0.event_ver},\"originVersion\":{0.event_ver},\"tenantId\":{0.retailer_id},\"branchId\":{0.branch_id},\"userId\":{0.user_id},\"replicaInfo\":\"{0.replica_id}\",\"eventMetadata\":{{\"fireBaseToken\":\"{0.firebase_token}\"}}}}"
+}}

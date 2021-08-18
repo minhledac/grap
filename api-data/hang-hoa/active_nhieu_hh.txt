@@ -1,0 +1,12 @@
+{{
+  "api": "/products/activeproductlist",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "SelectedProductList": [
+      {0.data_id}
+    ],
+    "IsActive": {0.status}
+  }},
+  "files": "None"
+}}

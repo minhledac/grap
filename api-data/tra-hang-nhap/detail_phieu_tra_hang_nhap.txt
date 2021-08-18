@@ -1,0 +1,9 @@
+{{
+  "api": "/PurchaseReturns/{0.id_phieu}",
+  "api_params": [
+    "Includes=PurchaseReturnExpensesOthers"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}

@@ -1,0 +1,17 @@
+{{
+  "api": "//bankaccount",
+  "api_params": [],
+  "method": "POST",
+  "data": {{
+    "BankAcc": {{
+      "Bank": "{0.ten_tai_khoan}",
+      "Account": "{0.so_tai_khoan}",
+      "BankCode": "{0.bank_code}",
+      "BankName": "{0.bank_name}",
+      "BankBranchId": {0.bank_branch_id},
+      "AccountName": "{0.chu_tai_khoan}",
+      "Branch": "{0.bank_branch_name}"
+    }}
+  }},
+  "files": "None"
+}}

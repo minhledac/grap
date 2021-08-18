@@ -1,0 +1,11 @@
+{{
+  "api": "/transferDetails/{0.id_phieu_chuyen}",
+  "api_params": [
+    "Includes=Product",
+    "%24inlinecount=allpages",
+    "%24top=10"
+  ],
+  "method": "GET",
+  "data": "None",
+  "files": "None"
+}}
