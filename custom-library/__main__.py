@@ -93,6 +93,7 @@ def generate_robot_script(path, feature_name):
     indexfl = feature_name.index('-')
     index = feature_name.index('_')
     force_tag = feature_name[:index]
+    Before_name = feature_name[indexfl +1 : 9999]
     length = len(feature_name)
     step_definitions_resource = "%s_step_definitions.robot" % feature_name[index + 1:length]
     step_definitions_resource = step_definitions_resource.lower().replace(' ', '_')
@@ -108,10 +109,10 @@ def generate_robot_script(path, feature_name):
         substring = "TN"
         fullstring = feature_name
         if substring in fullstring:
-            write_to_script(outfile, ["Suite Setup",   'Setup Android App Test Suite', 'Before Test Android App Pos'])
+            write_to_script(outfile, ["Suite Setup",   'Setup MHTN Test Suite', 'Before Test Thu Ngan'])
         else:
-            write_to_script(outfile, ["Suite Setup",   'Setup Android App Test Suite', 'Before Test '+ feature_name])
-        write_to_script(outfile, ["Suite Teardown",   'Teardown Android App Test Suite'])
+            write_to_script(outfile, ["Suite Setup",   'Setup Test Suite', 'Before Test '+ Before_name])
+        write_to_script(outfile, ["Suite Teardown",   'Teardown Test Suite'])
         write_to_script(outfile, ['Force Tags', force_tag])
         write_to_script(outfile, ["Resource",   '../../core/actions/' + feature_name[index +1 : indexfl] + "/" + step_definitions_resource])
         write_to_script(outfile, ["Resource",    '../../core/share/utils.robot'])
